@@ -1,5 +1,12 @@
+import React from "react";
+import AboutUs from "./pages/AboutUs";
+
 function App() {
-  return <div>Portfolio</div>;
+  return (
+    <div className="App">
+      <AboutUs />
+    </div>
+  );
 }
 
 export default App;
